@@ -52,8 +52,12 @@
         
         case "/":
             $resultado = SubValor($n1 , $n2);
-
-
+        default:
+            echo "Operação não encontrada";
+            break;
     }
+
+    print("$n1 $operador $n2 =");
+    printf("%.2f", $resultado);
 
 ?>
