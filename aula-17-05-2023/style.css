@@ -1,0 +1,43 @@
+body {
+    background-color: lightblue;    
+    font: normal 15pt arial;
+}
+
+.formulario {
+    background-color: lightgreen;
+    width: 600px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px black;
+    margin: auto;
+    
+}
+  
+@media screen and (max-width:768px) {
+   
+       
+    .formulario{
+        width: 500px;
+       }
+       /* 
+       .numero2{
+        display: flex;
+        margin-left: 18%; 
+        flex-direction: column;
+        /* align-content: center;
+        align-items: center; */
+    }
+
+@media screen and (max-width:576px) {
+   
+       
+    .formulario{
+        width: 300px;
+       }
+    
+}
+
+
+.operadores {
+    text-align: center;
+}
