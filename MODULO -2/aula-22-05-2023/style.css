@@ -1,0 +1,20 @@
+* {
+    background-color: white;
+}
+
+.bloco-primario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco-secundario {
+    display: flex;
+    flex-direction: column;     
+}
+
+
+.botoes {
+    justify-content: center;
+
+}

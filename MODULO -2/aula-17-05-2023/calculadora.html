@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mini calculadora</title>
+</head>
+
+<body>
+    <div class="formulario"></div>
+        <form action="calculadora.php" method="post">
+        <div class="numeroUm">
+            <label for="numero1">Número 1:</label>
+            <input type="number" name="numero1">
+        </div>
+        <div class="numeroDois">
+            <label for="numero2">Número 2:</label>
+            <input type="number"  name="numero2"> <br><br>
+        </div>
+        
+            <div class="operadores">
+                <label for="operador">operador:</label>
+                <input type="radio" name="operador" id="somar" value="+" checked >
+                <label for="somar">+</label>
+                <input type="radio" name="operador" id="subtrair" value="-">
+                <label for="subtrair">-</label>
+                <input type="radio" name="operador" id="multiplicar" value="*">
+                <label for="multiplicar">*</label>
+                <input type="radio" name="operador" id="dividir" value="/">
+                <label for="dividir">/</label> <br><br>
+                <div class="btnSubmit">
+                <input type="submit" value="enviar">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
